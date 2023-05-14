@@ -31,6 +31,7 @@ body {
 
 .logo-web {
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   display: flex;
@@ -39,9 +40,18 @@ body {
   text-transform: uppercase;
   color: var(--iris-color);
 }
+.logo-web:hover,
+.logo-web:focus,
+.logo-studio:hover,
+.logo-studio:focus,
+.heder-menu:hover,
+.heder-menu:focus {
+  color: #404bbf;
+}
 
 .logo-studio {
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   display: flex;
@@ -51,6 +61,7 @@ body {
   color: var(--navy-color);
 }
 .heder-menu {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
