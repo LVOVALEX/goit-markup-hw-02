@@ -157,9 +157,8 @@ body {
 
 .team {
   color: var(--navy-color);
-  background-color: var(--cloud-color);
 }
-.team-titel {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -169,6 +168,9 @@ body {
 }
 .team-item {
   background-color: var(--white-color);
+}
+.team-list {
+  background-color: var(--cloud-color);
 }
 .team-text-title {
   font-weight: 500;
