@@ -45,7 +45,9 @@ body {
 .logo-studio:hover,
 .logo-studio:focus,
 .heder-menu:hover,
-.heder-menu:focus {
+.heder-menu:focus,
+.heder-adress:hover,
+.heder-adress:focus {
   color: #404bbf;
 }
 
@@ -69,10 +71,11 @@ body {
   color: var(--navy-color);
 }
 .adress-list {
+  font-style: normal;
 }
 
 .heder-adress {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
